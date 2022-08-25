@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container-fluid bg-container">
+        <div class="row guess-image-background ">
+            <div class="col-12 col-md-6 m-auto  pt-5 pb-5">
+                <img class="guess-game-img" src="https://www.earthrangers.com/public/content/wildwire/PageHeaders-06.png"/>
+                <p class="text-center game-description">Find out the right number between 1 to 100</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 guess-bg-container text-center">
+                <h1 class="guess-heading">Guess the number
+                    <img src="https://images-platform.99static.com/KOQ2Ddiv6DQrxQNHwA02wtGKw9A=/500x500/top/smart/99designs-contests-attachments/19/19009/attachment_19009071" class="guess-number-image"/>
+                </h1>
+                <input type="text" class="user-input w-75" id="userInput"/> 
+                <br>  
+            <button class="btn btn-info check-guess" onclick="checkGuess()">Check</button>
+        <p class="game-result" id="gameResult"></p>
+    </div>
+    </div> 
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
